@@ -1,3 +1,5 @@
+package mastermindGame;
+
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Scanner;
@@ -11,7 +13,7 @@ public class Bonus {
         randomnumbergenerator(secretnumber);
         // as objects are passed by reference any operation
         String stringNumber = setToStringConverter(secretnumber);
-        System.out.println(stringNumber); //in case you likes to cheat in the game and for testing purposes
+        System.out.println("In case you likes to cheat in the game " + stringNumber); //in case you likes to cheat in the game and for testing purposes
         feedback(stringNumber);
     }
 
